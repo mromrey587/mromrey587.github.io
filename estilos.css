@@ -7,6 +7,12 @@ nav, footer{
     padding: 2%;
 }
 
+h2{
+    color: darkcyan;
+    font-size: 25px;
+    padding: 2%;
+}
+
 header{
     display: flex;
     flex-flow: column;
@@ -49,4 +55,10 @@ main{
     height: 300px;
     border: 3px darkcyan outset;
     margin: 2%;
+    text-align: center;
+}
+
+.box p{
+    font-size: 18px;
+    padding: 2%;
 }
