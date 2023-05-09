@@ -17,6 +17,7 @@ h2{
 header{
     width: 100%;
     background-color: lightgray;
+    display: flex;
 }
 
 header div{
@@ -38,9 +39,10 @@ header div{
     height: 100%;
 }
 
-
-
-
+nav{
+    width: 25%;
+    margin: 5%;
+}
 
 footer{
     width: 100%;
