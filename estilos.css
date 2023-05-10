@@ -131,8 +131,41 @@ nav{
 
 
 main{
-    margin: 0 2%;
+    
 }
+
+main h1{
+    text-align: center;
+    margin: 2.5%;
+}
+
+#sobreMi{
+    display: flex;
+    flex-flow: wrap;
+    margin: 2.5%;
+    justify-content:space-between;
+}
+
+#sobreMi section{
+    width: 45%;
+    background-color: antiquewhite;
+}
+
+#biografia{
+    
+}
+
+#tabla_lenguajes{
+    
+}
+
+#cuestionario{
+    width: 60%;
+    background-color: #777;
+    margin: auto;
+    padding: 1% 5%;
+}
+
 
 
 
