@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body{
@@ -15,6 +16,33 @@ body{
 
 body.dark{
     background: darkgray;
+    color: #ffffff;
+}
+
+body.dark h1{
+    color: #343D5B;
+}
+
+body.dark #cuestionario{
+    background-color: rgb(88, 87, 87);
+    color: white;
+}
+
+body.dark #cuestionario label{
+    color: white;
+}
+
+body.dark i{
+    color: white;
+}
+
+body.dark nav{
+    background-color: #6f6f6f;
+}
+
+
+body.dark nav a{
+    color: #343D5B;
 }
 
 nav, footer{
@@ -141,6 +169,7 @@ main{
 main h1{
     text-align: center;
     margin: 2.5%;
+    color: orange;
 }
 
 #sobreMi{
@@ -152,6 +181,11 @@ main h1{
 
 #biografia{
     width: 45%;
+}
+
+#biografia p{
+    font-size: 15px;
+    text-align: center;
 }
 
 #tabla__lenguajes{
@@ -214,7 +248,7 @@ main h1{
 
 #cuestionario{
     width: 80%;
-    background-color: #777;
+    background-color: #ffffff;
     margin: auto;
     padding: 1% 5%;
     display: flex;
@@ -230,7 +264,7 @@ main h1{
 }
 
 #fill__blancs label{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     margin: 2%;
 }
 
@@ -240,6 +274,7 @@ main h1{
 
 .input__normal input{
     width: 100%;
+    height: 25px;
 }
 
 #mensaje{
@@ -249,6 +284,12 @@ main h1{
 #mensaje textarea{
     width: 100%;
     height: 150px;
+}
+
+#boton__cuestionario{
+    margin: auto;
+    padding: 2% 5%;
+    font-weight: bold;
 }
 
 footer{
