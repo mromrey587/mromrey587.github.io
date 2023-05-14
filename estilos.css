@@ -419,10 +419,6 @@ li:hover .titulo{
 }
 
 @media screen and (max-width:450px){
-    body{
-        background-color: #343D5B;
-    }
-
     nav{
         width: 60%;
         height: 350px;
